@@ -1,8 +1,1 @@
-0.1 - adding basic html and js  
-    0.0a    
-        created html,css,and js files
-    0.0b
-        added basic html 
-    0.0c
-        added js and and site works as intended
-        finished version 0.1
+0.1a - created website with html and js
