@@ -1,5 +1,4 @@
-// nothin here yet :33 
-let a = 1
+let a = 0
 
 function ccount(){
     document.getElementById("output").innerHTML = ++a;

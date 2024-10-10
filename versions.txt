@@ -1,1 +1,2 @@
-0.1a - created website with html and js
+0.1 - created website with html and js
+    0.1a - added css
