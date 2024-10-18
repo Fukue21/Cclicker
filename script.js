@@ -1,5 +1,12 @@
-let a = 0
+let totalCount = 0
+let iteration = 1
 
-function ccount(){
-    document.getElementById("output").innerHTML = ++a;
+
+function count(){
+    
+    document.getElementById("output").innerHTML = totalCount = totalCount + iteration;
+
+    
 }
+
+

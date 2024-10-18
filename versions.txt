@@ -1,2 +1,4 @@
 0.1 - created website with html and js
     0.1a - added css
+    0.1b - added favicon
+         - used clean code rules 
