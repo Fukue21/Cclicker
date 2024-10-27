@@ -1,4 +1,11 @@
 0.1 - created website with html and js
-    0.1a - added css
-    0.1b - added favicon
-         - used clean code rules 
+
+0.1a - added css
+
+0.1b - added favicon
+     - used clean code rules 
+
+0.2 - added upgrade panel with 5 upgrade buttons 
+    - spend your clicks to progress faster
+    - added golden Button for endgame
+

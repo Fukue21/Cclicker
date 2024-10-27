@@ -21,14 +21,61 @@
     <div id="main" >
         <button id="mainButton"  onclick="count()" class="center"></button>
     </div>
+    <div id="iteration">
+        C/click: <p id="cPerClick">1</p>
+    </div>
 
+    <div id="upgradePanel">
 
-</div>
-    <div id = "currentVersion">
-        0.1b
+        <button id="u1" class="upgradeButton" onclick="upgrade(1,100)"> <!-- 100 -->
+
+            <b><p>+1/click</p>
+            <p style="display: inline;">Upgrade cost: </p><p style="color: gold; display: inline;" id="cost">100</p></b>
+        
+        </button>
+        <button id="u1" class="upgradeButton" onclick="upgrade(5,425)"> <!-- 425 -->
+
+            <b><p>+5/click</p>
+            <p style="display: inline;">Upgrade cost: </p><p style="color: gold; display: inline;" >425</p></b>
+        
+        </button>
+        <button id="u1" class="upgradeButton" onclick="upgrade(10,725)"> <!-- 875 -->
+
+            <b><p>+10/click</p>
+            <p style="display: inline;">Upgrade cost: </p><p style="color: gold; display: inline;"  >725</p></b>
+        
+        </button>
+        <button id="u1" class="upgradeButton" onclick="upgrade(25,1600)"> <!-- 2300 -->
+
+            <b><p>+25/click</p>
+            <p style="display: inline;">Upgrade cost: </p><p style="color: gold; display: inline;" >1600</p></b>
+        
+        </button>
+        <button id="u1" class="upgradeButton" onclick="upgrade(50,2700)"> <!-- 4650 -->
+
+            <b><p>+50/click</p>
+            <p style="display: inline;">Upgrade cost: </p><p style="color: gold; display: inline;" >2700</p></b>
+        
+        </button>
+
+        <button id="finalButton" onclick="finalButton(25000 )">
+            <b><p id="fbUpgrade">???</p></b>
+            <b><p style="display: inline;">Cost: </p><p style="display: inline;" id="fbPrice" >25000</p></b>
+
+        </button>
     </div>
 
 
+</div>
+
+
+    <div id = "currentVersion">
+        0.2
+    </div>
+    <!--
+<dialog>
+</dialog>
+-->
 <script src="script.js"></script>
 </body>
 </html>
