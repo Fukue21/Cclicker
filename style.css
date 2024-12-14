@@ -1,17 +1,22 @@
 
-    body {
+    #indexBody {
         font-family: Arial, sans-serif;
         background-color: #121212;
-        margin: 0;
-        padding: 20px;
+ 
         display: flex;
         justify-content: center;
         align-items: center;
         height: 100vh;
-        flex-direction: column;
-        color: #f1f1f1;
         
+        color: #f1f1f1;
+        overflow: hidden;
 
+        
+    }
+    #gambleBody{
+        background-color: #121212;
+        height: 100vh;
+        color: #f1f1f1;
         overflow: hidden;
     }
 
@@ -62,7 +67,7 @@
         height: 100%;
         width: 20%;
         right: 0%;
-        top: 0%;
+        bottom: 0%;
 
         background-color: #1D1212;
 
@@ -107,16 +112,42 @@
         position: relative;
         top: 0%;
     }
+    #finalButton:hover{
+        background-color: goldenrod;
+    }
 
     #currentVersion {
         font-size: 12px;
         color: #999;
         position: absolute; 
-        bottom: 10px;
-        left: 10px;
 
+        bottom: 5%;
         border-radius: 2px;
         
     }
+
+    #wawa{
+        width: 100%;
+        position: sticky;
+        
+        border-width: 2px;
+        border-style: dashed;
+        border-radius: 2px;
+        border: #8e5454;
+        top:100%;
+    }
+
+    #two{
+        position:absolute;
+        bottom: 0%;
+        right: 0%;
+    }
+
+    #pixelInfo{
+        top: 0%;
+        left: 0%;
+        font-size: larger;
+    }
+
 
     

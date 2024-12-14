@@ -1,11 +1,25 @@
-0.1 - created website with html and js
+0.1  - "the core"
+     - created website with html and js
 
-0.1a - added css
+     0.1a 
+          - added css
 
-0.1b - added favicon
-     - used clean code rules 
+     0.1b - added favicon
+          - used clean code rules 
 
-0.2 - added upgrade panel with 5 upgrade buttons 
-    - spend your clicks to progress faster
-    - added golden Button for endgame
+     0.2 - "getting an upgrade"
+          - added upgrade panel with 5 upgrade buttons 
+          - spend your clicks to progress faster
+          - added golden Button for endgame
+     
+     0.3a - "GAMBLING"
+          - added new button that will let you go to the site where you can GAMBLE with clicks 
+          - flip a coin, if you win you get 2x of your bet! (just don't lose...)
+          - roll a dice, by guessing correct amount you get 6x of your bet!
+          - updated readme
 
+|----------------------------------------TODO----------------------------------------|
+
+- css to gambling 
+- hints
+- php

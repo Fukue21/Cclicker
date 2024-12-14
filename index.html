@@ -8,14 +8,15 @@
     
     <link rel="icon" type="image/x-icon" href="favicon.ico">
 </head>
-<body>
+<body id="indexBody">
 <div id="container">
+    
     <div id="clicks" class="center">
         Clicks:
     </div>
 
     <div id="output" class="center">
-0
+5000
     </div>
 
     <div id="main" >
@@ -27,34 +28,34 @@
 
     <div id="upgradePanel">
 
-        <button id="u1" class="upgradeButton" onclick="upgrade(1,100)"> <!-- 100 -->
+        <button id="u1" class="upgradeButton" onclick="upgrade(1,100,0)"> <!-- 100 -->
 
             <b><p>+1/click</p>
             <p style="display: inline;">Upgrade cost: </p><p style="color: gold; display: inline;" id="cost">100</p></b>
         
         </button>
-        <button id="u1" class="upgradeButton" onclick="upgrade(5,425)"> <!-- 425 -->
+        <button id="u1" class="upgradeButton" onclick="upgrade(5,425,1)"> <!-- 425 -->
 
             <b><p>+5/click</p>
-            <p style="display: inline;">Upgrade cost: </p><p style="color: gold; display: inline;" >425</p></b>
+            <p style="display: inline;">Upgrade cost: </p><p style="color: gold; display: inline;" class="cost">425</p></b>
         
         </button>
-        <button id="u1" class="upgradeButton" onclick="upgrade(10,725)"> <!-- 875 -->
+        <button id="u1" class="upgradeButton" onclick="upgrade(10,725,2)"> <!-- 875 -->
 
             <b><p>+10/click</p>
-            <p style="display: inline;">Upgrade cost: </p><p style="color: gold; display: inline;"  >725</p></b>
+            <p style="display: inline;">Upgrade cost: </p><p style="color: gold; display: inline;" class="cost" >725</p></b>
         
         </button>
-        <button id="u1" class="upgradeButton" onclick="upgrade(25,1600)"> <!-- 2300 -->
+        <button id="u1" class="upgradeButton" onclick="upgrade(25,1600,3)"> <!-- 2300 -->
 
             <b><p>+25/click</p>
-            <p style="display: inline;">Upgrade cost: </p><p style="color: gold; display: inline;" >1600</p></b>
+            <p style="display: inline;">Upgrade cost: </p><p style="color: gold; display: inline;" class="cost" >1600</p></b>
         
         </button>
-        <button id="u1" class="upgradeButton" onclick="upgrade(50,2700)"> <!-- 4650 -->
+        <button id="u1" class="upgradeButton" onclick="upgrade(50,2700,4)"> <!-- 4650 -->
 
             <b><p>+50/click</p>
-            <p style="display: inline;">Upgrade cost: </p><p style="color: gold; display: inline;" >2700</p></b>
+            <p style="display: inline;">Upgrade cost: </p><p style="color: gold; display: inline;"class="cost" >2700</p></b>
         
         </button>
 
@@ -66,16 +67,27 @@
     </div>
 
 
-</div>
+</div id="wawa">
 
 
     <div id = "currentVersion">
-        0.2
+        v0.3
     </div>
+
+    <div id="two">
+        <a href="gamble.html"><button style="height: 35px; width: 35px;"  ></button></a>
+    </div>
+    
+</div>
+</body>
+</html>
+
+
+
+
     <!--
 <dialog>
 </dialog>
 -->
-<script src="script.js"></script>
-</body>
-</html>
+
+<script src="script.js" ></script>
