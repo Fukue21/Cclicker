@@ -12,14 +12,18 @@
           - spend your clicks to progress faster
           - added golden Button for endgame
      
-     0.3a - "GAMBLING"
+     0.3 - "GAMBLING"
           - added new button that will let you go to the site where you can GAMBLE with clicks 
           - flip a coin, if you win you get 2x of your bet! (just don't lose...)
           - roll a dice, by guessing correct amount you get 6x of your bet!
           - updated readme
+     0.3a 
+          - few small fixes 
+|----------------------------------------TFuture----------------------------------------|
 
-|----------------------------------------TODO----------------------------------------|
-
-- css to gambling 
+- css to gambling
+- black jack and roulette 
 - hints
 - php
+- new theme
+- more endgame things 

@@ -1,5 +1,5 @@
 
-let totalCount = 5000
+let totalCount = 0
 let iteration = 1
 
 let i = 0
